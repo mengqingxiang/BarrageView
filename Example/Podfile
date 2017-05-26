@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QXBarrageView_Example' do
+  pod 'QXBarrageView', :path => '../'
+
+  target 'QXBarrageView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
