@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29184E411ED8803700CA58E3 /* QXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29184E401ED8803700CA58E3 /* QXBarrageView.m */; };
+		292542A61ED96EB0001B0AE8 /* CALayer+QXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 292542A51ED96EB0001B0AE8 /* CALayer+QXLayer.m */; };
+		29DC3E741ED95C040047260F /* QXTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3E731ED95C040047260F /* QXTestModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18CF015082CF0421957F9E35 /* QXBarrageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QXBarrageView.podspec; path = ../QXBarrageView.podspec; sourceTree = "<group>"; };
+		18CF015082CF0421957F9E35 /* QXBarrageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QXBarrageView.podspec; path = ../QXBarrageView.podspec; sourceTree = "<group>"; };
 		1F3DC90517BF5CEFFE8EC908 /* Pods-QXBarrageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBarrageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXBarrageView_Example/Pods-QXBarrageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		29184E3F1ED8803700CA58E3 /* QXBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXBarrageView.h; sourceTree = "<group>"; };
+		29184E401ED8803700CA58E3 /* QXBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXBarrageView.m; sourceTree = "<group>"; };
+		292542A41ED96EB0001B0AE8 /* CALayer+QXLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+QXLayer.h"; sourceTree = "<group>"; };
+		292542A51ED96EB0001B0AE8 /* CALayer+QXLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+QXLayer.m"; sourceTree = "<group>"; };
+		29DC3E711ED90FDB0047260F /* QXBarrageModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXBarrageModelProtocol.h; sourceTree = "<group>"; };
+		29DC3E721ED95C040047260F /* QXTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXTestModel.h; sourceTree = "<group>"; };
+		29DC3E731ED95C040047260F /* QXTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXTestModel.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QXBarrageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXBarrageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +69,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66958C36D10E80275BBE5855 /* Pods_QXBarrageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXBarrageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C3B0D4BC0FC2D222204C13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67C3B0D4BC0FC2D222204C13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89EC22A24B5ED2C777391EBC /* Pods-QXBarrageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBarrageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXBarrageView_Tests/Pods-QXBarrageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		984E41E3883F7F5E2CC8854F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		984E41E3883F7F5E2CC8854F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE5BC0A4295AEB89695B203C /* Pods_QXBarrageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXBarrageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C225D430F6BE09F48CD6C509 /* Pods-QXBarrageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBarrageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXBarrageView_Example/Pods-QXBarrageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB6046F27F83FADCA5961BFD /* Pods-QXBarrageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBarrageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXBarrageView_Tests/Pods-QXBarrageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +105,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29184E3E1ED85B3B00CA58E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29184E3F1ED8803700CA58E3 /* QXBarrageView.h */,
+				29184E401ED8803700CA58E3 /* QXBarrageView.m */,
+				29DC3E711ED90FDB0047260F /* QXBarrageModelProtocol.h */,
+				292542A41ED96EB0001B0AE8 /* CALayer+QXLayer.h */,
+				292542A51ED96EB0001B0AE8 /* CALayer+QXLayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +154,7 @@
 		6003F593195388D20070C39A /* Example for QXBarrageView */ = {
 			isa = PBXGroup;
 			children = (
+				29184E3E1ED85B3B00CA58E3 /* Classes */,
 				6003F59C195388D20070C39A /* QXAppDelegate.h */,
 				6003F59D195388D20070C39A /* QXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -140,6 +163,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				29DC3E721ED95C040047260F /* QXTestModel.h */,
+				29DC3E731ED95C040047260F /* QXTestModel.m */,
 			);
 			name = "Example for QXBarrageView";
 			path = QXBarrageView;
@@ -396,6 +421,9 @@
 			files = (
 				6003F59E195388D20070C39A /* QXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QXViewController.m in Sources */,
+				292542A61ED96EB0001B0AE8 /* CALayer+QXLayer.m in Sources */,
+				29184E411ED8803700CA58E3 /* QXBarrageView.m in Sources */,
+				29DC3E741ED95C040047260F /* QXTestModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

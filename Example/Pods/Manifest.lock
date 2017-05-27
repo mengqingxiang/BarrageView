@@ -1,0 +1,16 @@
+PODS:
+  - QXBarrageView (0.1.0)
+
+DEPENDENCIES:
+  - QXBarrageView (from `../`)
+
+EXTERNAL SOURCES:
+  QXBarrageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QXBarrageView: a5f90de95e4d5d051aa6d9ffea8e62a4587ad6a3
+
+PODFILE CHECKSUM: 3a333dbabea20bacb86641110ea3f2f92c3bc822
+
+COCOAPODS: 1.1.1

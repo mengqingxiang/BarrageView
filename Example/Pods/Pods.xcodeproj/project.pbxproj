@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015D39D5A718F16EA65A241E35A73DF6 /* Pods-QXBarrageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FB369329DBC243DF9CB4DFA537F591 /* Pods-QXBarrageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02EC9972EBFD705FE8F1B8D49FBBBD76 /* QXBarrageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 947B2C88B16259780CC986B398F3C5F8 /* QXBarrageView-dummy.m */; };
+		182FA7894CFCA16291A213F0CD1C7811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		25576F88FC0D12ECBD0E96294B645A12 /* Pods-QXBarrageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 528890B50B9082EC94726D3D85365209 /* Pods-QXBarrageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34255480F423050EA8184ABB18044AB7 /* QXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A3AA7DD2554C1D6A4397AC3DC935D /* QXBarrageView.m */; };
+		5FFF2A5E1B2BD7A660820840498FA617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		62CF8F2DD0CA09AE290F0799B659F0B3 /* Pods-QXBarrageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BEE4B42EB73A038D4F96F95A1FA666 /* Pods-QXBarrageView_Tests-dummy.m */; };
+		9288BB36C94FC4548B76C0D5300D13CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AF54C9E29EA072BDEE0E23F4FC7C95AB /* QXBarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5EF0CBAD6950208D33819D93D0160E /* QXBarrageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59797591ADF7696B3DDDE746E51DEB0 /* QXBarrageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F1FB74D147DB4F4BCB637707FBC20F /* QXBarrageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D681A712D4BB3C167CE7F166A8D31FC4 /* QXBarrageModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDB22766E2022FE3EA314FD7F748A75 /* QXBarrageModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC2F9E7C5D41C8812B8477B2440C5DF /* CALayer+QXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DD9F2938652A56837C35725188DC /* CALayer+QXLayer.m */; };
+		EA1AC42A3A35217916D17AE28D22EE14 /* Pods-QXBarrageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0A959EAC651AAFF1A88A3A30860CA /* Pods-QXBarrageView_Example-dummy.m */; };
+		F0C238800973E52A304CB1409EBDA958 /* CALayer+QXLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC0FDA1EBB291A8C9E6282E9EA9C071 /* CALayer+QXLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B0336FDEB1409274B51B1FAEF7D1C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4BD4D078B4650AA1958E575A3919E5;
+			remoteInfo = QXBarrageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E70F4A00046065586F1FED675865AD /* QXBarrageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXBarrageView-prefix.pch"; sourceTree = "<group>"; };
+		0F0614633D842D8876B7D5B7FE42097A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176982B608B56130D75CB46134AC0135 /* Pods-QXBarrageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXBarrageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CDB22766E2022FE3EA314FD7F748A75 /* QXBarrageModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXBarrageModelProtocol.h; sourceTree = "<group>"; };
+		1D5EF0CBAD6950208D33819D93D0160E /* QXBarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXBarrageView.h; sourceTree = "<group>"; };
+		1EC0FDA1EBB291A8C9E6282E9EA9C071 /* CALayer+QXLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+QXLayer.h"; sourceTree = "<group>"; };
+		24248CE2AC6F83E8FFA214BF5CB7B97B /* Pods-QXBarrageView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXBarrageView_Tests-resources.sh"; sourceTree = "<group>"; };
+		29CC046CEF2E47609A528FFF6F5BE320 /* Pods-QXBarrageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXBarrageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E1190E1F22D9103FE1574DE2D74C1BA /* Pods-QXBarrageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXBarrageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4950DBE67E04B2F794FA139247F3CBCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514EB389ED54E7FCA3894474645D4D92 /* Pods-QXBarrageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QXBarrageView_Example.modulemap"; sourceTree = "<group>"; };
+		528890B50B9082EC94726D3D85365209 /* Pods-QXBarrageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXBarrageView_Example-umbrella.h"; sourceTree = "<group>"; };
+		543412E1A1B0DD304FF18E5AD4B564ED /* Pods-QXBarrageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXBarrageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		667A3AA7DD2554C1D6A4397AC3DC935D /* QXBarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXBarrageView.m; sourceTree = "<group>"; };
+		69F1FB74D147DB4F4BCB637707FBC20F /* QXBarrageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXBarrageView-umbrella.h"; sourceTree = "<group>"; };
+		7486C7C18324BAC1A5C616C74B5942F0 /* Pods-QXBarrageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXBarrageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DE17D112AD740851242CBF4626D9A00 /* Pods_QXBarrageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXBarrageView_Example.framework; path = "Pods-QXBarrageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E61D14BD0FF5D5B9D809A14B82901D /* Pods-QXBarrageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QXBarrageView_Tests.modulemap"; sourceTree = "<group>"; };
+		92004D531D705E85AE7E1D4182E60B5A /* QXBarrageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QXBarrageView.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947B2C88B16259780CC986B398F3C5F8 /* QXBarrageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXBarrageView-dummy.m"; sourceTree = "<group>"; };
+		A740DB626C573F831B1121EC3D5E0835 /* Pods-QXBarrageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXBarrageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A910A9408488FA8327E02DA63B4CA3E3 /* Pods_QXBarrageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXBarrageView_Tests.framework; path = "Pods-QXBarrageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E32D7B02D8C679BC10E73217BCD7FF /* QXBarrageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXBarrageView.xcconfig; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBCCD1AE254758F3C46334E8B10C3A45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC67144A27B0EEB9001B85841ACC1142 /* Pods-QXBarrageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXBarrageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CDBC86167BCA414DEEE8DBCC8B1B0BE4 /* QXBarrageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXBarrageView.framework; path = QXBarrageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC0A959EAC651AAFF1A88A3A30860CA /* Pods-QXBarrageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXBarrageView_Example-dummy.m"; sourceTree = "<group>"; };
+		D01AB644A35AEA44BE4050F32BBB06A2 /* Pods-QXBarrageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXBarrageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E7DD9F2938652A56837C35725188DC /* CALayer+QXLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+QXLayer.m"; sourceTree = "<group>"; };
+		D53970E0D30AFE16F2D9E232DC88F16E /* Pods-QXBarrageView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXBarrageView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DE689FBCCF9DFEC9FEF88DCCEC9B21DC /* Pods-QXBarrageView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXBarrageView_Example-resources.sh"; sourceTree = "<group>"; };
+		E0F2460F9DFA322145125A50057B7E9E /* Pods-QXBarrageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXBarrageView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E1BEE4B42EB73A038D4F96F95A1FA666 /* Pods-QXBarrageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXBarrageView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3FB369329DBC243DF9CB4DFA537F591 /* Pods-QXBarrageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXBarrageView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B001EFA988976268B77602AA24AD2493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182FA7894CFCA16291A213F0CD1C7811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EB005A32B6836862FE7DAEB04B8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288BB36C94FC4548B76C0D5300D13CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA36CDE739BE4572B877956D7E0A1B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFF2A5E1B2BD7A660820840498FA617 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFC74A8DE99D1C38F29AAEC8C66140A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DE043D1D6D1837261576EBCFD110B08 /* QXBarrageView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4CC2329C33322412B6DFA1340D054089 /* Pods-QXBarrageView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4950DBE67E04B2F794FA139247F3CBCB /* Info.plist */,
+				514EB389ED54E7FCA3894474645D4D92 /* Pods-QXBarrageView_Example.modulemap */,
+				A740DB626C573F831B1121EC3D5E0835 /* Pods-QXBarrageView_Example-acknowledgements.markdown */,
+				29CC046CEF2E47609A528FFF6F5BE320 /* Pods-QXBarrageView_Example-acknowledgements.plist */,
+				CFC0A959EAC651AAFF1A88A3A30860CA /* Pods-QXBarrageView_Example-dummy.m */,
+				E0F2460F9DFA322145125A50057B7E9E /* Pods-QXBarrageView_Example-frameworks.sh */,
+				DE689FBCCF9DFEC9FEF88DCCEC9B21DC /* Pods-QXBarrageView_Example-resources.sh */,
+				528890B50B9082EC94726D3D85365209 /* Pods-QXBarrageView_Example-umbrella.h */,
+				CC67144A27B0EEB9001B85841ACC1142 /* Pods-QXBarrageView_Example.debug.xcconfig */,
+				176982B608B56130D75CB46134AC0135 /* Pods-QXBarrageView_Example.release.xcconfig */,
+			);
+			name = "Pods-QXBarrageView_Example";
+			path = "Target Support Files/Pods-QXBarrageView_Example";
+			sourceTree = "<group>";
+		};
+		74DC5C6FEE63B98EB9A0FBE1E86E43AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCD1AE254758F3C46334E8B10C3A45 /* Info.plist */,
+				92004D531D705E85AE7E1D4182E60B5A /* QXBarrageView.modulemap */,
+				B2E32D7B02D8C679BC10E73217BCD7FF /* QXBarrageView.xcconfig */,
+				947B2C88B16259780CC986B398F3C5F8 /* QXBarrageView-dummy.m */,
+				00E70F4A00046065586F1FED675865AD /* QXBarrageView-prefix.pch */,
+				69F1FB74D147DB4F4BCB637707FBC20F /* QXBarrageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXBarrageView";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3CFC74A8DE99D1C38F29AAEC8C66140A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9EFFFFCE59F9B7C93BD26372472FCB8E /* Products */,
+				FB2EC9AE788C4D0E0ED3F3DD0E40AAC4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE043D1D6D1837261576EBCFD110B08 /* QXBarrageView */ = {
+			isa = PBXGroup;
+			children = (
+				A4D042AD2BC0BC373DCAD6DBF59199DF /* QXBarrageView */,
+				74DC5C6FEE63B98EB9A0FBE1E86E43AB /* Support Files */,
+			);
+			name = QXBarrageView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9EFFFFCE59F9B7C93BD26372472FCB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE17D112AD740851242CBF4626D9A00 /* Pods_QXBarrageView_Example.framework */,
+				A910A9408488FA8327E02DA63B4CA3E3 /* Pods_QXBarrageView_Tests.framework */,
+				CDBC86167BCA414DEEE8DBCC8B1B0BE4 /* QXBarrageView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D042AD2BC0BC373DCAD6DBF59199DF /* QXBarrageView */ = {
+			isa = PBXGroup;
+			children = (
+				E2784812DB04E4A08BE166685ACB0719 /* Classes */,
+			);
+			name = QXBarrageView;
+			path = QXBarrageView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39D19F804871EBAC1C21CB7007B0B22 /* Pods-QXBarrageView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0614633D842D8876B7D5B7FE42097A /* Info.plist */,
+				83E61D14BD0FF5D5B9D809A14B82901D /* Pods-QXBarrageView_Tests.modulemap */,
+				543412E1A1B0DD304FF18E5AD4B564ED /* Pods-QXBarrageView_Tests-acknowledgements.markdown */,
+				3E1190E1F22D9103FE1574DE2D74C1BA /* Pods-QXBarrageView_Tests-acknowledgements.plist */,
+				E1BEE4B42EB73A038D4F96F95A1FA666 /* Pods-QXBarrageView_Tests-dummy.m */,
+				D53970E0D30AFE16F2D9E232DC88F16E /* Pods-QXBarrageView_Tests-frameworks.sh */,
+				24248CE2AC6F83E8FFA214BF5CB7B97B /* Pods-QXBarrageView_Tests-resources.sh */,
+				F3FB369329DBC243DF9CB4DFA537F591 /* Pods-QXBarrageView_Tests-umbrella.h */,
+				D01AB644A35AEA44BE4050F32BBB06A2 /* Pods-QXBarrageView_Tests.debug.xcconfig */,
+				7486C7C18324BAC1A5C616C74B5942F0 /* Pods-QXBarrageView_Tests.release.xcconfig */,
+			);
+			name = "Pods-QXBarrageView_Tests";
+			path = "Target Support Files/Pods-QXBarrageView_Tests";
+			sourceTree = "<group>";
+		};
+		E2784812DB04E4A08BE166685ACB0719 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EC0FDA1EBB291A8C9E6282E9EA9C071 /* CALayer+QXLayer.h */,
+				D0E7DD9F2938652A56837C35725188DC /* CALayer+QXLayer.m */,
+				1CDB22766E2022FE3EA314FD7F748A75 /* QXBarrageModelProtocol.h */,
+				1D5EF0CBAD6950208D33819D93D0160E /* QXBarrageView.h */,
+				667A3AA7DD2554C1D6A4397AC3DC935D /* QXBarrageView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB2EC9AE788C4D0E0ED3F3DD0E40AAC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2329C33322412B6DFA1340D054089 /* Pods-QXBarrageView_Example */,
+				D39D19F804871EBAC1C21CB7007B0B22 /* Pods-QXBarrageView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05F53CDAD3CFCB170998E67DE06CE9E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C238800973E52A304CB1409EBDA958 /* CALayer+QXLayer.h in Headers */,
+				D681A712D4BB3C167CE7F166A8D31FC4 /* QXBarrageModelProtocol.h in Headers */,
+				B59797591ADF7696B3DDDE746E51DEB0 /* QXBarrageView-umbrella.h in Headers */,
+				AF54C9E29EA072BDEE0E23F4FC7C95AB /* QXBarrageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AA1A44A369D0A7B1995F73A58C33A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015D39D5A718F16EA65A241E35A73DF6 /* Pods-QXBarrageView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DEC1972002347F86A218BA3F09A927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25576F88FC0D12ECBD0E96294B645A12 /* Pods-QXBarrageView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D45D84F3E1DE6F8A70153470A583AC1 /* Pods-QXBarrageView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231C1713409A7E7B0D4D091D080D8574 /* Build configuration list for PBXNativeTarget "Pods-QXBarrageView_Example" */;
+			buildPhases = (
+				8ED2AF1EFE275890B6D04E0F055446B4 /* Sources */,
+				F1EB005A32B6836862FE7DAEB04B8F06 /* Frameworks */,
+				55DEC1972002347F86A218BA3F09A927 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E74718083874E55BF415B725C7656B /* PBXTargetDependency */,
+			);
+			name = "Pods-QXBarrageView_Example";
+			productName = "Pods-QXBarrageView_Example";
+			productReference = 7DE17D112AD740851242CBF4626D9A00 /* Pods_QXBarrageView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF4BD4D078B4650AA1958E575A3919E5 /* QXBarrageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFAC0D004E8474C278B80EE80A534EB /* Build configuration list for PBXNativeTarget "QXBarrageView" */;
+			buildPhases = (
+				01DB5375A29F69936FEEAA155BAE2612 /* Sources */,
+				FA36CDE739BE4572B877956D7E0A1B84 /* Frameworks */,
+				05F53CDAD3CFCB170998E67DE06CE9E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QXBarrageView;
+			productName = QXBarrageView;
+			productReference = CDBC86167BCA414DEEE8DBCC8B1B0BE4 /* QXBarrageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C97E1FE9AF10083EF1839DE37C208D6B /* Pods-QXBarrageView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C42E74776D208EF739628186BB3726 /* Build configuration list for PBXNativeTarget "Pods-QXBarrageView_Tests" */;
+			buildPhases = (
+				6418362C4DB55D8444DC540317B9AE56 /* Sources */,
+				B001EFA988976268B77602AA24AD2493 /* Frameworks */,
+				26AA1A44A369D0A7B1995F73A58C33A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QXBarrageView_Tests";
+			productName = "Pods-QXBarrageView_Tests";
+			productReference = A910A9408488FA8327E02DA63B4CA3E3 /* Pods_QXBarrageView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9EFFFFCE59F9B7C93BD26372472FCB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D45D84F3E1DE6F8A70153470A583AC1 /* Pods-QXBarrageView_Example */,
+				C97E1FE9AF10083EF1839DE37C208D6B /* Pods-QXBarrageView_Tests */,
+				BF4BD4D078B4650AA1958E575A3919E5 /* QXBarrageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DB5375A29F69936FEEAA155BAE2612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC2F9E7C5D41C8812B8477B2440C5DF /* CALayer+QXLayer.m in Sources */,
+				02EC9972EBFD705FE8F1B8D49FBBBD76 /* QXBarrageView-dummy.m in Sources */,
+				34255480F423050EA8184ABB18044AB7 /* QXBarrageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6418362C4DB55D8444DC540317B9AE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CF8F2DD0CA09AE290F0799B659F0B3 /* Pods-QXBarrageView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2AF1EFE275890B6D04E0F055446B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1AC42A3A35217916D17AE28D22EE14 /* Pods-QXBarrageView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E74718083874E55BF415B725C7656B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QXBarrageView;
+			target = BF4BD4D078B4650AA1958E575A3919E5 /* QXBarrageView */;
+			targetProxy = C9B0336FDEB1409274B51B1FAEF7D1C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DB0D4EE052DBAA78E0D2CACCB235134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176982B608B56130D75CB46134AC0135 /* Pods-QXBarrageView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QXBarrageView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXBarrageView_Example/Pods-QXBarrageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QXBarrageView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		642E220F8B127F55121CCC294CE27C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7486C7C18324BAC1A5C616C74B5942F0 /* Pods-QXBarrageView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QXBarrageView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXBarrageView_Tests/Pods-QXBarrageView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QXBarrageView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B03D76B7FE518284A1FBFF24EE5FE373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E32D7B02D8C679BC10E73217BCD7FF /* QXBarrageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QXBarrageView/QXBarrageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXBarrageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QXBarrageView/QXBarrageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QXBarrageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B110BE88683DCF0B9E6F696DBD712FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01AB644A35AEA44BE4050F32BBB06A2 /* Pods-QXBarrageView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QXBarrageView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXBarrageView_Tests/Pods-QXBarrageView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QXBarrageView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B8F3063374668948ABCCFD656A0F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC67144A27B0EEB9001B85841ACC1142 /* Pods-QXBarrageView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QXBarrageView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXBarrageView_Example/Pods-QXBarrageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QXBarrageView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1E196248F1F6BF2BBA918D7FE74FBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E32D7B02D8C679BC10E73217BCD7FF /* QXBarrageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QXBarrageView/QXBarrageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXBarrageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QXBarrageView/QXBarrageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QXBarrageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231C1713409A7E7B0D4D091D080D8574 /* Build configuration list for PBXNativeTarget "Pods-QXBarrageView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B8F3063374668948ABCCFD656A0F00 /* Debug */,
+				1DB0D4EE052DBAA78E0D2CACCB235134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C42E74776D208EF739628186BB3726 /* Build configuration list for PBXNativeTarget "Pods-QXBarrageView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B110BE88683DCF0B9E6F696DBD712FB6 /* Debug */,
+				642E220F8B127F55121CCC294CE27C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFAC0D004E8474C278B80EE80A534EB /* Build configuration list for PBXNativeTarget "QXBarrageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03D76B7FE518284A1FBFF24EE5FE373 /* Debug */,
+				E1E196248F1F6BF2BBA918D7FE74FBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
